@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Parmar G Printing & Branding Solutions</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Poppins", sans-serif;
+      background-color: #ffffff;
+      color: #333;
+    }
+
+    header {
+      background-color: #0b3d91;
+      color: white;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 50px;
+      flex-wrap: wrap;
+    }
+
+    header img {
+      height: 60px;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .hero {
+      text-align: center;
+      background: linear-gradient(to right, #0b3d91, #1d56b3);
+      color: white;
+      padding: 100px 20px;
+    }
+
+    .hero h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+    }
+
+    .btn {
+      background-color: white;
+      color: #0b3d91;
+      padding: 12px 25px;
+      border-radius: 25px;
+      text-decoration: none;
+      font-weight: 600;
+      margin-top: 20px;
+      display: inline-block;
+    }
+
+    section {
+      padding: 60px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    .services, .portfolio {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+    }
+
+    .service-card, .portfolio-card {
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      padding: 20px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+
+    .contact {
+      background-color: #f7f7f7;
+      padding: 50px 20px;
+    }
+
+    .contact-info {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    iframe {
+      width: 100%;
+      height: 300px;
+      border: none;
+      border-radius: 10px;
+    }
+
+    footer {
+      background-color: #0b3d91;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+
+    @media (max-width: 600px) {
+      header {
+        flex-direction: column;
+        text-align: center;
+      }
+      nav {
+        margin-top: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="logo1.png" alt="Parmar G Logo">
+    <nav>
+      <a href="#">Home</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Parmar G Printing & Branding Solutions</h1>
+    <p>A Complete Printing & Branding Solution</p>
+    <a href="https://wa.me/918178262136" class="btn">WhatsApp Us</a>
+  </section>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>At Parmar G Printing & Branding Solutions, we specialize in creating impactful designs for businesses.
+      From high-quality printing to shop branding, flex boards, and custom signage — we handle everything
+      with precision and creativity.</p>
+  </section>
+
+  <section id="services">
+    <h2>Our Services</h2>
+    <div class="services">
+      <div class="service-card">
+        <h3>Printing Services</h3>
+        <p>Visiting Cards, Flyers, Brochures, Flex & Vinyl Printing, and more.</p>
+      </div>
+      <div class="service-card">
+        <h3>Branding Solutions</h3>
+        <p>Shop Boards, Glow Signs, Vehicle Branding, Acrylic Letters, Wall Graphics.</p>
+      </div>
+      <div class="service-card">
+        <h3>Design & Installation</h3>
+        <p>Professional design team and complete on-site branding installation.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="portfolio">
+    <h2>Our Work</h2>
+    <div class="portfolio">
+      <div class="portfolio-card">Shop Board Design</div>
+      <div class="portfolio-card">Visiting Card Print</div>
+      <div class="portfolio-card">Vehicle Branding</div>
+      <div class="portfolio-card">Wall Graphics</div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <div class="contact-info">
+      <h2>Contact Us</h2>
+      <p><strong>Phone:</strong> +91 8178262136</p>
+      <p><strong>Email:</strong> <a href="mailto:parmargraphics.fbd@gmail.com">parmargraphics.fbd@gmail.com</a></p>
+    </div>
+    <iframe 
+      src="https://www.google.com/maps?q=Faridabad&output=embed"
+      allowfullscreen>
+    </iframe>
+  </section>
+
+  <footer>
+    <p>© 2025 Parmar G Printing & Branding Solutions | Designed with ❤️ in India</p>
+  </footer>
+
+</body>
+</html>
